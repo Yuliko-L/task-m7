@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: #2C799A;
+  min-height: 111.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+header nav {
+  width: 114.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 9.1rem;
+}
+header nav .left-part, header nav .right-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .left-part .logo, header nav .right-part .logo {
+  margin-right: 8rem;
+}
+header nav .left-part .menu, header nav .right-part .menu {
+  list-style: none;
+  display: flex;
+  gap: 2.1rem;
+  margin-bottom: 0;
+}
+header nav .left-part .menu a, header nav .right-part .menu a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: white;
+}
+header nav .right-part a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: white;
+  margin-bottom: 0;
+}
+header nav .right-part .menu__text {
+  margin-bottom: 0;
+  margin-right: 4.5rem;
+}
+header nav .right-part .menu__btn {
+  width: 13.7rem;
+  height: 5.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #8D5CF6;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: white;
+  padding-right: 5.2rem;
+  position: relative !important;
+}
+header nav .right-part .menu__btn .buttom__arrow {
+  position: absolute !important;
+  right: 2.1rem;
+}/*# sourceMappingURL=style.css.map */
